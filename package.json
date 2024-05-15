@@ -1,6 +1,7 @@
 {
   "name": "expostickersmash",
   "version": "1.0.0",
+  "private": true,
   "main": "expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -9,13 +10,25 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@antfu/eslint-config": "^2.17.0",
+    "@expo/metro-runtime": "~3.2.1",
+    "@expo/vector-icons": "^14.0.0",
+    "eslint": "^9.2.0",
     "expo": "~51.0.2",
+    "expo-image-picker": "~15.0.4",
+    "expo-media-library": "~16.0.3",
     "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
-    "react-native": "0.74.1"
+    "react-dom": "18.2.0",
+    "react-native": "0.74.1",
+    "react-native-gesture-handler": "~2.16.1",
+    "react-native-reanimated": "~3.10.1",
+    "react-native-view-shot": "3.8.0",
+    "react-native-web": "~0.19.10"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
-  },
-  "private": true
+    "@antfu/eslint-config": "^2.17.0",
+    "@babel/core": "^7.20.0",
+    "eslint": "^9.2.0"
+  }
 }
